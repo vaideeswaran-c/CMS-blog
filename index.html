@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Daily Blog</title>
+		<link rel="stylesheet" href="/css/styles.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="site-identity">
+				<a href="/"
+					><img
+						src="https://image.flaticon.com/icons/png/512/1187/1187595.png"
+						alt="Logo"
+				/></a>
+				<a href="/"><h1>Daily Blog</h1></a>
+				<a href="/login" id="adminLogin"
+					><button class="admin-login">Admin Login</button></a
+				>
+				<button class="admin-login d-none" onclick="handleLogout(event)" id="logout">
+					Logout
+				</button>
+			</div>
+		</header>
+		<a href="/new"><button class="admin-login d-none" id="newArticle">New Article</button></a>
+		<main></main>
+		<footer class="signature">
+			<p class="cp-text">© All rights reserved.</p>
+		</footer>
+		<script src="/js/script.js"></script>
+		<script src="/js/index.js"></script>
+	</body>
+</html>
